@@ -24,6 +24,15 @@ div .col p {
     border-color: rgb(33, 46, 70) !important;
 }
 
+.tabla{
+    margin-top: 20px;
+    width: 100%;
+}
+
+table, td{
+    border: 1px solid rgb(33, 46, 70);
+}
+
 .credit-card-div span {
     padding-top: 10px;
 }
