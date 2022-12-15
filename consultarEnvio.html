@@ -40,7 +40,7 @@
                         </ul>
                       </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">|</a>
+                        <a class="nav-link active barra" aria-current="page" href="#">|</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Bienvenido Usuario</a>
@@ -59,46 +59,68 @@
             <h2 class="card-title text-center" style="margin-bottom: 20px;">Consultar Envío</h2>
             <h5 class="card-title">Seleccione el paquete y la accion que desea realizar</h5>
             <br>
-            <div class="border rounded">
-                <div class="row align-items-start text-center paquete">
-                    <div class="col">
-                        <p>Paquete #</p>
+        <form>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <label class="form-check-label stretched-link" for="locker1"></label>
+                    <div class="container row align-items-start">
+                        <div class="row">
+                            <div class="col-4">
+                                <center>
+                                <p>Paquete #</p>
+                                </center>
+                            </div>
+                            <div class="col-4">
+                                <center>
+                                <p>Numero de envío</p>
+                                </center>
+                            </div>
+                            <div class="col-4" >
+                                <center>
+                                <input class="form-check-input ml-5" type="radio" name="locker" value="" id="locker1" checked>
+                                </center>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col">
-                        <p>Numero de Envio</p>
+                  </li>
+                <li class="list-group-item">
+                    <label class="form-check-label stretched-link" for="locker2"></label>
+                    <div class="container row align-items-start">
+                        <div class="row">
+                        <div class="col-4">
+                            <center>
+                            <p>Paquete #</p>
+                            </center>
+                        </div>
+                        <div class="col-4">
+                            <center>
+                            <p>Numero de envío</p>
+                            </center>
+                        </div>
+                        <div class="col-4" >
+                            <center>
+                            <input class="form-check-input ml-5" type="radio" name="locker" value="" id="locker2">
+                            </center>
+                        </div>
+                        </div>
                     </div>
-                    <div class="col">
-                        <input type="radio">
-                    </div>
-                </div>
-            </div>
-            <div class="border rounded">
-                <div class="row align-items-start text-center paquete">
-                    <div class="col">
-                        <p>Paquete #</p>
-                    </div>
-                    <div class="col">
-                        <p>Numero de Envio</p>
-                    </div>
-                    <div class="col">
-                        <input type="radio">
-                    </div>
-                </div>
-            </div>
+                </li>
+            </ul>
+          </form>
             <br>
             <div class="row align-items-start text-center">
                 <div class="col">
-                    <button type="button" class="btn btn-primary boton">Consultar Ticket</button>
+                    <button type="button" class="btn btn-primary boton" onclick="location.href='./consultaEnvios.html'">Consultar Ticket</button>
                 </div>
                 <div class="col">
-                    <button type="button" class="btn btn-danger">Consultar Estatus</button>
+                    <button type="button" class="btn btn-danger" onclick="location.href='./'">Consultar Estatus</button>
                 </div>
             </div>
 
     </div>
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-    <script src="./js/card.js"></script>
+    <!--<script src="./js/card.js"></script>-->
 
 </body>
 

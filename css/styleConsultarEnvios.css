@@ -31,6 +31,7 @@ a{
 .border{
   border-color: rgb(33, 46, 70) !important;
   margin-top: 10px;
+  border-style: solid;
 }
 
 .color-eliminar:hover{
