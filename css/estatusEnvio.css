@@ -13,9 +13,9 @@
 
 .estado{
     width: 684.200px;
-    height: 83px;
     position: relative;
-    left: 21%;
+    height: auto;
+    max-width:100%;
 }
 
 .numero{
@@ -77,4 +77,10 @@ a:visited {
 
 .seleccion:hover {
     border-color: rgb(249, 217, 80);
+}
+
+@media screen and (max-width: 990px) {
+    .barra{
+        display: none;
+    }
 }
