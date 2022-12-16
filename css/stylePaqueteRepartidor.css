@@ -29,10 +29,6 @@ div .col p {
     width: 100%;
 }
 
-table, td{
-    border: 1px solid rgb(33, 46, 70);
-}
-
 .credit-card-div span {
     padding-top: 10px;
 }
@@ -52,4 +48,14 @@ table, td{
 .botones-solicitud {
     width: 150px !important;
     margin: 0 10px;
+}
+
+.detalles{
+    border-color: black !important;
+}
+
+@media screen and (max-width: 990px) {
+    .barra{
+        display: none;
+    }
 }
