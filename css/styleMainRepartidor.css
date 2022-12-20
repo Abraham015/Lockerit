@@ -62,4 +62,8 @@ section .img1{
     .cerrarSesion{
         font-size: small;
     }
+
+    .barra{
+        display: none;
+    }
 }

@@ -6,3 +6,8 @@
     font-family: 'Alata', sans-serif;
 }
 
+@media screen and (max-width: 990px) {
+    .barra{
+        display: none;
+    }
+  }

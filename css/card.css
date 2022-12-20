@@ -16,4 +16,9 @@
     text-align: center;
     padding-bottom: 25px;
 }
-  
+
+@media screen and (max-width: 990px) {
+    .barra{
+        display: none;
+    }
+}

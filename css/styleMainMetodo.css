@@ -36,3 +36,10 @@ a{
 .color-eliminar:hover{
   color: red !important;
 }
+
+
+@media screen and (max-width: 990px) {
+  .barra{
+      display: none;
+  }
+}

@@ -8,3 +8,9 @@
     display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 990px) {
+  .barra{
+      display: none;
+  }
+}

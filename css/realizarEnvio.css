@@ -40,5 +40,10 @@
         margin-left: 0px;
         width: 150px;
     }
+
+    .barra{
+        display: none;
+    }
 }
+
 
