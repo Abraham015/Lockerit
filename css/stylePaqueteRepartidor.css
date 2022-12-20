@@ -29,10 +29,6 @@ div .col p {
     width: 100%;
 }
 
-table, td{
-    border: 1px solid rgb(33, 46, 70);
-}
-
 .credit-card-div span {
     padding-top: 10px;
 }
@@ -54,9 +50,20 @@ table, td{
     margin: 0 10px;
 }
 
+<<<<<<< HEAD
+=======
+.detalles{
+    border-color: black !important;
+}
+
+>>>>>>> 577c87360c308696194036c5669b50d7e943a8b5
 @media screen and (max-width: 990px) {
     .barra{
         display: none;
     }
+<<<<<<< HEAD
   }
   
+=======
+}
+>>>>>>> 577c87360c308696194036c5669b50d7e943a8b5

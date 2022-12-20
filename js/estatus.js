@@ -1,4 +1,4 @@
-let estado = 1;
+let estado = 5;
 if (estado == 1) {
     document.getElementById("imgEstado").src="./images/estado1.png";
 } else if(estado == 2){
