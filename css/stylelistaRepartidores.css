@@ -22,6 +22,7 @@ div .col p {
 .boton{
     background-color: rgb(33, 46, 70);
     border-color: rgb(33, 46, 70) !important;
+    margin-top: 30px;
 }
 
 .tabla{
